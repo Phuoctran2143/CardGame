@@ -12,7 +12,7 @@
 		F6D557C11DBFAD4600265068 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D557BF1DBFAD4600265068 /* Main.storyboard */; };
 		F6D557C31DBFAD4600265068 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6D557C21DBFAD4600265068 /* Assets.xcassets */; };
 		F6D557C61DBFAD4600265068 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D557C41DBFAD4600265068 /* LaunchScreen.storyboard */; };
-		F6D557D01DBFAEB400265068 /* PLayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D557CF1DBFAEB400265068 /* PLayingCard.swift */; };
+		F6D557D01DBFAEB400265068 /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D557CF1DBFAEB400265068 /* PlayingCard.swift */; };
 		F6D557D21DBFAF0000265068 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D557D11DBFAF0000265068 /* Card.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +24,7 @@
 		F6D557C21DBFAD4600265068 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6D557C51DBFAD4600265068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6D557C71DBFAD4600265068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F6D557CF1DBFAEB400265068 /* PLayingCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PLayingCard.swift; sourceTree = "<group>"; };
+		F6D557CF1DBFAEB400265068 /* PlayingCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
 		F6D557D11DBFAF0000265068 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Card.swift; path = ../Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,7 +72,7 @@
 		F6D557D51DBFAF7700265068 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				F6D557CF1DBFAEB400265068 /* PLayingCard.swift */,
+				F6D557CF1DBFAEB400265068 /* PlayingCard.swift */,
 				F6D557D11DBFAF0000265068 /* Card.swift */,
 			);
 			name = Model;
@@ -151,7 +151,7 @@
 			files = (
 				F6D557BE1DBFAD4600265068 /* ViewController.swift in Sources */,
 				F6D557D21DBFAF0000265068 /* Card.swift in Sources */,
-				F6D557D01DBFAEB400265068 /* PLayingCard.swift in Sources */,
+				F6D557D01DBFAEB400265068 /* PlayingCard.swift in Sources */,
 				F6D557BC1DBFAD4600265068 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
