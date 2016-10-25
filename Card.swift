@@ -6,4 +6,10 @@
 //  Copyright © 2016 Tran, Phuoc. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class PlayingCard: Card
+{
+    
+}
+
