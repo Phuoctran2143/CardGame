@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Card
+class PlayingCard
 {
     
 }
