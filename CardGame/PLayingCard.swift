@@ -58,10 +58,27 @@ class PlayingCard : Card
     override init()
     {
         super.init()
-        frontImage = UIImage(0)
+        frontImage = UIImage()
         color = UIColor()
         rank = 0
         suit = String()
+    }
+    
+    override func toString() -> String
+    {
+        let facing : String
+        if self.isUp()
+        {
+            facing = " is face up."
+        }
+        else
+        {
+            facing = " is face down"
+        }
+        var toast 
+        let description = "This PlayingCard has a face value of \(rank), a color of \(color), nd is of the \(suit) suit\(facing)"
+        
+        return description
     }
     
 
