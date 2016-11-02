@@ -10,58 +10,33 @@ import UIKit
 
 class PlayingCard : Card
 {
-    private var rank : Int
-    {
-        get
-        {
-            return self.rank
-        }
-        set(rank)
-        {
-            self.rank = rank
-        }
-    }
-    private var suit : String
-        {
-        get
-        {
-            return self.suit
-        }
-        set(suit)
-        {
-            self.suit = suit
-        }
-    }
-    private var color : UIColor
-        {
-        get
-        {
-            return self.color
-        }
-        set(color)
-        {
-            self.color = color
-        }
-    }
-    private var frontImage : UIImage
-        {
-        get
-        {
-            return self.frontImage
-        }
-        set(frontImage)
-        {
-            self.frontImage = frontImage
-        }
-    }
+    internal var rank : Int
+    
+    internal var suit : String
+    
+    internal var color : UIColor
+    
+    internal var frontImage : UIImage
     
     override init()
     {
+        
+        self.frontImage = UIImage()
+        self.color = UIColor.redColor()
+        self.rank = 0
+        self.suit = String()
         super.init()
-        frontImage = UIImage()
-        color = UIColor()
-        rank = 0
-        suit = String()
+        
+    }
+    
+init(withRank: Int, ofSuit: String)
+    {
+        
+        frontImage = UIImage(named: "cardFront")!
+        color = UIColor.redColor()
+        rank = withRank
+        suit = ofSuit
+        super.init()
     }
     
     override func toString() -> String
@@ -75,19 +50,44 @@ class PlayingCard : Card
         {
             facing = " is face down"
         }
-        var toast 
-        let description = "This PlayingCard has a face value of \(rank), a color of \(color), nd is of the \(suit) suit\(facing)"
+
+        let description = "This PlayingCard has a face value of \(rank), a color of \(color), and is of the \(suit) suit\(facing)"
         
         return description
     }
     
 
-    func getRank() -> Int
+//    func getRank() -> Int
+//    {
+//        return self.rank
+//    }
+//    func SetRank(rank : Int)
+//  {
+//    self.rank = rank
+//    }
+// }
+
+    class func validRanks () -> [String]
     {
-        return self.rank
+    return["?", "A", "2", "3", "4", "5", " 6", "7", "8", "9", "10", "J", "Q", "K"]
     }
-    func SetRank(rank : Int)
+    class func maxRank() -> Int
     {
-    self.rank = rank
+        return validRanks().count - 1
     }
+
+    class func validSuits() -> [String]
+    {
+    return["♥️","♠️","♦️","♣️"]
+    
+    }
+
+
 }
+
+
+
+
+
+
+

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		F665694F1DC25267000B7280 /* CardGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665694E1DC25267000B7280 /* CardGameController.swift */; };
+		F6A4DF951DCA22A60091A06C /* deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A4DF941DCA22A60091A06C /* deck.swift */; };
+		F6A4DF971DCA22C90091A06C /* playingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A4DF961DCA22C90091A06C /* playingCardDeck.swift */; };
 		F6D557BC1DBFAD4600265068 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D557BB1DBFAD4600265068 /* AppDelegate.swift */; };
 		F6D557C11DBFAD4600265068 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D557BF1DBFAD4600265068 /* Main.storyboard */; };
 		F6D557C31DBFAD4600265068 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6D557C21DBFAD4600265068 /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 
 /* Begin PBXFileReference section */
 		F665694E1DC25267000B7280 /* CardGameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardGameController.swift; sourceTree = "<group>"; };
+		F6A4DF941DCA22A60091A06C /* deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = deck.swift; path = Model/deck.swift; sourceTree = "<group>"; };
+		F6A4DF961DCA22C90091A06C /* playingCardDeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = playingCardDeck.swift; path = Model/playingCardDeck.swift; sourceTree = "<group>"; };
 		F6D557B81DBFAD4600265068 /* CardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6D557BB1DBFAD4600265068 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6D557C01DBFAD4600265068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 			children = (
 				F6D557CF1DBFAEB400265068 /* PlayingCard.swift */,
 				F6D557D11DBFAF0000265068 /* Card.swift */,
+				F6A4DF941DCA22A60091A06C /* deck.swift */,
+				F6A4DF961DCA22C90091A06C /* playingCardDeck.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -168,7 +174,9 @@
 				F6D557D21DBFAF0000265068 /* Card.swift in Sources */,
 				F665694F1DC25267000B7280 /* CardGameController.swift in Sources */,
 				F6D557D01DBFAEB400265068 /* PlayingCard.swift in Sources */,
+				F6A4DF951DCA22A60091A06C /* deck.swift in Sources */,
 				F6D557BC1DBFAD4600265068 /* AppDelegate.swift in Sources */,
+				F6A4DF971DCA22C90091A06C /* playingCardDeck.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
