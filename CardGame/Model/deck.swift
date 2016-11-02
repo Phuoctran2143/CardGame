@@ -10,5 +10,10 @@ import Foundation
 
 class deck
 {
+    lazy var cards = [Card]()
     
+    func shuffleDeck() -> Void
+    {
+            
+    }
 }
