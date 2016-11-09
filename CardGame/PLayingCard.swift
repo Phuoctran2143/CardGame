@@ -21,7 +21,7 @@ class PlayingCard : Card
     override init()
     {
         
-        self.frontImage = UIImage(named: <#T##String#>)!
+        self.frontImage = UIImage(named: "playingCard")!
         self.color = UIColor.redColor()
         self.rank = 0
         self.suit = String()

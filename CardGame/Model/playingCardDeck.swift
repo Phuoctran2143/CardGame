@@ -8,7 +8,7 @@
 
 import Foundation
 
-class playingCrdDeck : deck
+class playingCardDeck : deck
 {
     lazy var card = [PlayingCard]()
     
@@ -25,7 +25,7 @@ class playingCrdDeck : deck
             }
         }
     }
-    func shuffleDeck() -> Void
+    override func shuffleDeck() -> Void
     {
         
     }
