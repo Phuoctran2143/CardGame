@@ -20,12 +20,12 @@ class deck
             // chooses a valid random intex in the range of 0... cards.count-1
             let randomSpot = Int (arc4random() % UInt32(cards.count))
             // takes the card form the deck.the deckdecreases count.
-            let removedCard = cards.removeAtIndex(randomSpot)
+            let removedCard = self.cards.removeAtIndex(randomSpot)
             // add the removed card to the end of the temporary deck
             tempDeck.append(removedCard)
         }
         // change the state deck with the temporary deck
-        cards = tempDeck
+        self.cards = tempDeck
     }
     
     func cutDeck() -> Void
@@ -34,6 +34,32 @@ class deck
     {
     
     }
+    func drawCard() -> Card?
+    {
+        if self.cards.count > 0
+        {
+           return cards.removeAtIndex(0)
+        }
+        else
+        {
+            return nil
+        }
+    }
 
-        
+    
+        func drawRandomCard() -> Card?
+        {
+            if cards.count > 0
+            {
+                let randomIndex = (Int)(arc4random() % (UInt32) (cards.count))
+                return cards.removeAtIndex(randomIndex)
+            }
+
+        else
+        {
+            return nil
+        }
+    }
 }
+    
+

@@ -25,12 +25,11 @@ class playingCardDeck : deck
             }
         }
     }
-    override func shuffleDeck() -> Void
-    {
+    
+    
         
     }
     func orderDeck() -> Void
     {
         
     }
-}
