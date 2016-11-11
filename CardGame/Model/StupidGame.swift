@@ -11,7 +11,7 @@ import Foundation
 class StupidGame
 {
     //declartion section
-    private var deck = PlayingCard()
+    private var deck = playingCardDeck()
     private var currentCard1 = PlayingCard()
     private var currentCard2 = PlayingCard()
     private var currentHand = [PlayingCard]()
@@ -24,7 +24,7 @@ class StupidGame
     init ()
         
     {
-        deck = PlayingCard()
+        deck = playingCardDeck()
         currentCard1 = PlayingCard()
         currentCard2 = PlayingCard()
         currentHand = [PlayingCard]()
@@ -39,6 +39,13 @@ class StupidGame
     func startGame() -> Void
     {
         deck.shuffleDeck()
-        currentCard1 = 
+        
+        currentCard1 = (deck.drawRandomCard() as? PlayingCard)!
+        currentCard1 = (deck.drawRandomCard() as? PlayingCard)!
+        currentHand.append(currentCard1)
+        currentHand.append(currentCard2)
+        
+        
+        
     }
 }
