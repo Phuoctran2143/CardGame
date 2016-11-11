@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F665694F1DC25267000B7280 /* CardGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665694E1DC25267000B7280 /* CardGameController.swift */; };
+		F69077D21DD61EB900113C95 /* StupidGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69077D11DD61EB900113C95 /* StupidGame.swift */; };
 		F6A4DF951DCA22A60091A06C /* deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A4DF941DCA22A60091A06C /* deck.swift */; };
 		F6A4DF971DCA22C90091A06C /* playingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A4DF961DCA22C90091A06C /* playingCardDeck.swift */; };
 		F6A4DF991DCA439C0091A06C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6A4DF981DCA439C0091A06C /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		F665694E1DC25267000B7280 /* CardGameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardGameController.swift; sourceTree = "<group>"; };
+		F69077D11DD61EB900113C95 /* StupidGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StupidGame.swift; path = Model/StupidGame.swift; sourceTree = "<group>"; };
 		F6A4DF941DCA22A60091A06C /* deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = deck.swift; path = Model/deck.swift; sourceTree = "<group>"; };
 		F6A4DF961DCA22C90091A06C /* playingCardDeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = playingCardDeck.swift; path = Model/playingCardDeck.swift; sourceTree = "<group>"; };
 		F6A4DF981DCA439C0091A06C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Assets.xcassets/Assets.xcassets; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				F6D557CF1DBFAEB400265068 /* PlayingCard.swift */,
+				F69077D11DD61EB900113C95 /* StupidGame.swift */,
 				F6D557D11DBFAF0000265068 /* Card.swift */,
 				F6A4DF941DCA22A60091A06C /* deck.swift */,
 				F6A4DF961DCA22C90091A06C /* playingCardDeck.swift */,
@@ -175,6 +178,7 @@
 				F665694F1DC25267000B7280 /* CardGameController.swift in Sources */,
 				F6D557D01DBFAEB400265068 /* PlayingCard.swift in Sources */,
 				F6A4DF951DCA22A60091A06C /* deck.swift in Sources */,
+				F69077D21DD61EB900113C95 /* StupidGame.swift in Sources */,
 				F6D557BC1DBFAD4600265068 /* AppDelegate.swift in Sources */,
 				F6A4DF971DCA22C90091A06C /* playingCardDeck.swift in Sources */,
 			);
