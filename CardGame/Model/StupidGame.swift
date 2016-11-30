@@ -82,7 +82,7 @@ class StupidGame
         discardDeck.append(currentCard2)
         currentHand.removeAtIndex(0)
         currentHand.removeAtIndex(0)
-        drawCards()
+       
     }
     func notMatch() -> Void
     {

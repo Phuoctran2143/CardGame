@@ -10,7 +10,7 @@ import Foundation
 
 class playingCardDeck : deck
 {
-    lazy var card = [PlayingCard]()
+   
     
     override init()
     {
@@ -21,7 +21,7 @@ class playingCardDeck : deck
             for var rank = 1; rank < PlayingCard.maxRank(); rank += 1
             {
                 let currentCard = PlayingCard(withRank: rank, ofSuit: suit)
-                self.card.append(currentCard)
+                self.cards.append(currentCard)
             }
         }
     }
