@@ -26,10 +26,7 @@ class playingCardDeck : deck
         }
     }
     
-    
+}
         
-    }
-    func orderDeck() -> Void
-    {
-        
-    }
+   
+ 

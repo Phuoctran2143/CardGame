@@ -59,7 +59,7 @@ init(withRank: Int, ofSuit: String)
         return self.rank
     
     }
-        func SetRank(rank : Int)
+        func SetRank(rank : Int) -> Void
     {
     
         self.rank = rank

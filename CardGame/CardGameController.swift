@@ -13,6 +13,7 @@ class CardGameController : UIViewController
 
     @IBOutlet weak var cardLabel: UILabel!
     @IBOutlet weak var cardButton: UIButton!
+    @IBOutlet weak var custonCard: CardView!
     private lazy var currentDeck = playingCardDeck()
     private lazy var clickCount = Int()
     

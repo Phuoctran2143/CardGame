@@ -12,13 +12,14 @@ class Card
 {
     
 
-    
+    internal var backImage : UIImage
     internal var isFaceUp : Bool
     
     init()
     {
         
         isFaceUp = false
+        backImage = UIImage(named: "Image")!
     }
     
     func toString() ->String
@@ -26,7 +27,14 @@ class Card
         let description = "the card is \(isFaceUp)"
         return description
     }
-    
+    func getBackImage() -> UIImage
+    {
+        return backImage
+    }
+    func setBackImage(newImage : UIImage)
+    {
+        backImage = newImage
+    }
     
     
     func isUp()-> Bool

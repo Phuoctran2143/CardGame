@@ -14,7 +14,7 @@ class CardView
     internal var cardFront : UIImageView
     internal var topLabel : UILabel
     internal var bottomLabel : UILabel
-    internal var cornerCuve : CGFloat
+    internal var cornerCurve : CGFloat
     
     
     
@@ -24,11 +24,11 @@ class CardView
         cardBack = UIImageView()
         cardFront = UIImageView()
         topLabel = UILabel()
-        bottomLabel = UILabeL()
-        cornerCurve =
+        bottomLabel = UILabel()
+        cornerCurve = CGFloat(20.00)
     }
     
-    Func setup() -> Void
+    func setup() -> Void
     {
     
     }

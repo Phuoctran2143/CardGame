@@ -46,15 +46,13 @@ class deck
         }
     }
 
-    
-        func drawRandomCard() -> Card?
+    func drawRandomCard() -> Card?
+    {
+        if cards.count > 0
         {
-            if cards.count > 0
-            {
-                let randomIndex = (Int)(arc4random() % (UInt32) (cards.count))
-                return cards.removeAtIndex(randomIndex)
-            }
-
+            let randomIndex = (Int)(arc4random() % (UInt32) (cards.count))
+            return cards.removeAtIndex(randomIndex)
+        }
         else
         {
             return nil
